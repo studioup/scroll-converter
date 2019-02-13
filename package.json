@@ -1,0 +1,31 @@
+{
+  "title": "Scroll Converter",
+  "name": "scroll-converter",
+  "description": "This script converts vertical scrolling to horizontal scrolling.",
+  "version": "1.0.2",
+  "main": "scroll-converter.js",
+  "homepage": "https://github.com/studioup/scroll-converter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://studioup@github.com/studioup/scroll-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/studioup/scroll-converter/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Johannes Koggdal",
+    "email": "johannes@koggdal.com",
+    "web": "http://koggdal.com/"
+  },
+  "contributors": [
+    {
+      "name": "Studio Up srl",
+      "email": "info@studioup.it",
+      "url": "https://www.studioup.it"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
