@@ -264,6 +264,14 @@ Released under MIT license
 			}
 		}
 
+		ScrollConverter.enabled = function(bool) {
+			if(bool) {
+				ScrollConverter.activate();
+			}else {
+				ScrollConverter.deactivate();
+			}
+		}
+
 		return ScrollConverter;
 	}
 
