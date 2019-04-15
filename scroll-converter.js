@@ -126,8 +126,8 @@ Released under MIT license
 					scrollDir = "scroll" + (axis === "X" ? "Left" : "Top");
 
 				// Get the scroll offset for all browsers
-				return window[pageOffset] || window[scrollValue] || (function () {
-					var rootElem = $document.documentElement || $documentBody.parentNode;
+				return $window[pageOffset] || $window[scrollValue] || (function () {
+					var rootElem = $window || $document.documentElement || $documentBody.parentNode;
 					return ((typeof rootElem[scrollDir] === "number") ? rootElem : $documentBody)[scrollDir];
 				}());
 			},
